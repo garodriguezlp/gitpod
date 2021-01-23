@@ -1,0 +1,26 @@
+antigen use oh-my-zsh
+
+# personal plugins
+antigen bundles <<EOBUNDLES
+
+    # personal plugins
+    garodriguezlp/gitpod-dotfiles bundles/p10k
+    garodriguezlp/gitpod-dotfiles bundles/fzf
+    garodriguezlp/gitpod-dotfiles bundles/tmux
+
+    # from oh-my-zsh's library
+    fzf
+    git
+    github
+    tmux
+    vscode
+
+    # from zsh-users
+    zsh-users/zsh-syntax-highlighting
+    zsh-users/zsh-autosuggestions
+    zsh-users/zsh-completions
+
+EOBUNDLES
+
+antigen theme romkatv/powerlevel10k
+antigen apply

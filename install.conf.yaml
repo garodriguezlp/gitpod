@@ -1,0 +1,9 @@
+- defaults:
+  link:
+    relink: true
+    force: true
+    create: true
+
+- link:
+  ~/.zshrc: dotfiles/zshrc
+  ~/.antigenrc: dotfiles/antigenrc
