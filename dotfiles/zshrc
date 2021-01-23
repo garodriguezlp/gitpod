@@ -2,5 +2,5 @@
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # load antigen
-# source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
+source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
 antigen init ~/.antigenrc
