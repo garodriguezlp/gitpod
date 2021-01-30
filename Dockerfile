@@ -6,4 +6,4 @@ COPY dotfiles/zshrc .zshrc
 COPY dotfiles/antigenrc .antigenrc
 
 RUN command -v zsh | sudo tee -a /etc/shells && \
-    sudo chsh -s "$(command -v zsh)" "${USER}"
+    sudo chsh -s $(command -v zsh) gitpod
