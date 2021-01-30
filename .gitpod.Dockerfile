@@ -1,1 +1,1 @@
-FROM garodriguezlp/gitpod:1.0
+FROM garodriguezlp/gitpod
