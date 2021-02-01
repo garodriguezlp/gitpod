@@ -6,7 +6,7 @@ antigen bundles <<EOBUNDLES
     # personal plugins
     garodriguezlp/gitpod-dotfiles@main bundles/p10k
     garodriguezlp/gitpod-dotfiles@main bundles/fzf
-    # garodriguezlp/gitpod-dotfiles@main bundles/tmux
+    garodriguezlp/gitpod-dotfiles@main bundles/tmux
 
     # from oh-my-zsh's library
     fzf
