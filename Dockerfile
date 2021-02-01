@@ -18,8 +18,8 @@ RUN command -v zsh | sudo tee -a /etc/shells \
     && sudo chsh -s $(command -v zsh) gitpod
 
 RUN git clone --branch master --depth 1 https://github.com/gpakosz/.tmux.git \
-    && ln -s -f .tmux/.tmux.conf \
-    && cp .tmux/.tmux.conf.local .
+    && ln -s -f .tmux/.tmux.conf
 
 COPY --chown=gitpod dotfiles/zshrc .zshrc
 COPY --chown=gitpod dotfiles/antigenrc .antigenrc
+COPY --chown=gitpod dotfiles/tmux.conf.local .tmux.conf.local
