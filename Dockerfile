@@ -12,6 +12,8 @@ RUN brew install \
     tldr \
     hub \
     httpie \
+    jenv \
+    autojump \
     bat
 
 RUN command -v zsh | sudo tee -a /etc/shells \

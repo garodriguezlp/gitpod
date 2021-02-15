@@ -7,6 +7,7 @@ antigen bundles <<EOBUNDLES
     garodriguezlp/gitpod-dotfiles@main bundles/p10k
     garodriguezlp/gitpod-dotfiles@main bundles/fzf
     garodriguezlp/gitpod-dotfiles@main bundles/tmux
+    garodriguezlp/gitpod-dotfiles@main bundles/sdk
 
     # from oh-my-zsh's library
     fzf
@@ -14,6 +15,9 @@ antigen bundles <<EOBUNDLES
     github
     tmux
     vscode
+    jenv
+    sdk
+    autojump
 
     # from zsh-users
     zsh-users/zsh-syntax-highlighting
