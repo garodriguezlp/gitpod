@@ -28,4 +28,4 @@ COPY --chown=gitpod dotfiles/tmux.conf.local .tmux.conf.local
 
 # Custom credentials helper for Git
 COPY --chown=gitpod scripts/my-credentials-helper .my-credentials-helper
-ENV GIT_ASKPASS=/home/gitpod/.my-credentials-helper.sh
+ENV GIT_ASKPASS=/home/gitpod/.my-credentials-helper
