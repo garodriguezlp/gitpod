@@ -2,22 +2,23 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
+RUN sudo apt-get install build-essential procps curl file git
+
 RUN brew install \
     antigen \
-    fzf \
-    tmux \
-    tree \
-    fd \
-    rg \
-    tldr \
-    gh \
-    hub \
-    httpie \
-    autojump \
-    bat
+    tmux
+    # fzf \
+    # tree \
+    # fd \
+    # rg \
+    # tldr \
+    # gh \
+    # hub \
+    # httpie \
+    # autojump \
+    # bat
 
-RUN command -v zsh | sudo tee -a /etc/shells \
-    && sudo chsh -s $(command -v zsh) gitpod
+# RUN sudo chsh -s $(command -v zsh) gitpod
 
 RUN git clone --branch master --depth 1 https://github.com/gpakosz/.tmux.git \
     && ln -s -f .tmux/.tmux.conf
