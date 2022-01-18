@@ -18,6 +18,8 @@ antigen bundles <<EOBUNDLES
     jenv
     sdk
     autojump
+    docker
+    kubectl
 
     # from zsh-users
     zsh-users/zsh-syntax-highlighting
