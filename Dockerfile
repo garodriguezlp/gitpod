@@ -5,6 +5,7 @@ USER gitpod
 # Install tools with homebrew
 RUN eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) \
     && brew install \
+    antigen \
     tmux \
     fzf \
     tree \

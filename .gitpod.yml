@@ -2,4 +2,4 @@ image: ghcr.io/garodriguezlp/gitpod:main
 
 tasks:
   - init: |
-      docker build .
+      docker build -t garodriguezlp/gitpod .
