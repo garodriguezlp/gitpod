@@ -1,18 +1,20 @@
 FROM gitpod/workspace-full
 
-RUN brew install zsh
-#     antigen
-#     fzf \
-#     tmux \
-#     tree \
-#     fd \
-#     rg \
-#     tldr \
-#     gh \
-#     hub \
-#     httpie \
-#     autojump \
-#     bat
+USER gitpod
+
+RUN brew install \
+    antigen \
+    fzf \
+    tmux \
+    tree \
+    fd \
+    rg \
+    tldr \
+    gh \
+    hub \
+    httpie \
+    autojump \
+    bat
 
 RUN command -v zsh | sudo tee -a /etc/shells \
     && sudo chsh -s $(command -v zsh) gitpod
