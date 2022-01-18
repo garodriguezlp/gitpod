@@ -1,1 +1,5 @@
 image: ghcr.io/garodriguezlp/gitpod:main
+
+tasks:
+  - init: |
+      docker build .

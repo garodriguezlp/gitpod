@@ -2,11 +2,9 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN sudo apt update \
-    && sudo apt install -y build-essential procps curl file git
-
-# RUN brew install \
-#     antigen \
+RUN eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) \
+    && brew install \
+    perl
 #     tmux
 #     fzf \
 #     tree \
