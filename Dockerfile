@@ -1,7 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN brew install \
-    zsh
+RUN brew install zsh
 #     antigen
 #     fzf \
 #     tmux \
