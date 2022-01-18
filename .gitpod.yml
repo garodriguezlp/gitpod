@@ -1,5 +1,1 @@
-image:
-  file: .gitpod.Dockerfile
-
-tasks:
-  - command: zsh
+image: garodriguezlp/gitpod
