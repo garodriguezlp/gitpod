@@ -4,10 +4,11 @@ antigen use oh-my-zsh
 antigen bundles <<EOBUNDLES
 
     # personal plugins
-    garodriguezlp/gitpod-dotfiles@main bundles/p10k
-    garodriguezlp/gitpod-dotfiles@main bundles/fzf
-    garodriguezlp/gitpod-dotfiles@main bundles/tmux
-    garodriguezlp/gitpod-dotfiles@main bundles/sdk
+    garodriguezlp/gitpod@main bundles/p10k
+    garodriguezlp/gitpod@main bundles/fzf
+    garodriguezlp/gitpod@main bundles/tmux
+    garodriguezlp/gitpod@main bundles/sdk
+    garodriguezlp/gitpod@main bundles/brew
 
     # from oh-my-zsh's library
     fzf
