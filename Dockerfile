@@ -25,7 +25,3 @@ RUN git clone --branch master --depth 1 https://github.com/gpakosz/.tmux.git \
 COPY --chown=gitpod dotfiles/zshrc .zshrc
 COPY --chown=gitpod dotfiles/antigenrc .antigenrc
 COPY --chown=gitpod dotfiles/tmux.conf.local .tmux.conf.local
-
-# Custom credentials helper for Git
-COPY --chown=gitpod scripts/my-credentials-helper .my-credentials-helper
-ENV GIT_ASKPASS=/home/gitpod/.my-credentials-helper
