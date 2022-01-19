@@ -14,7 +14,8 @@ RUN eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) \
     tldr \
     hub \
     autojump \
-    bat
+    bat \
+    httpie
 
 RUN sudo chsh -s $(command -v zsh) gitpod
 
