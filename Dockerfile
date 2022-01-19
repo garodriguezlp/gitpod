@@ -18,6 +18,7 @@ RUN eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) \
     httpie \
     kubectl \
     krew \
+    thefuck \
     && npm install -g commitizen cz-conventional-changelog
 
 RUN sudo chsh -s $(command -v zsh) gitpod
