@@ -8,6 +8,7 @@ antigen bundles <<EOBUNDLES
     garodriguezlp/gitpod@main bundles/fzf
     garodriguezlp/gitpod@main bundles/tmux
     garodriguezlp/gitpod@main bundles/sdk
+    garodriguezlp/gitpod@main bundles/krew
 
     # from oh-my-zsh's library
     fzf
