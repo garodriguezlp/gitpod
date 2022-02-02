@@ -1,5 +1,8 @@
 # add to the path
-export PATH="${PATH}:${HOME}/.krew/bin"
+krew_bin="${HOME}/.krew/bin" 
+[[ -d "${krew_bin}" ]] && export PATH="${PATH}:${krew_bin}"
 
 # load completions
-source <(kubectl krew completion zsh)
+if [ $commands[kubectl-krew] ]; then
+  source <(kubectl-krew completion zsh)
+fi
