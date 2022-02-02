@@ -20,7 +20,7 @@ RUN eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) \
     krew \
     thefuck \
     && npm install -g commitizen cz-conventional-changelog \
-    && install linode-cli --upgrade
+    && pip install linode-cli --upgrade
 
 RUN sudo chsh -s $(command -v zsh) gitpod
 
