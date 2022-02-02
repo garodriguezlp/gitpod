@@ -1,0 +1,2 @@
+UNVERSIONED_SYMLINKS_PATH="$(brew --prefix python)/libexec/bin"
+[[ -d $UNVERSIONED_SYMLINKS_PATH ]] && export PATH="$UNVERSIONED_SYMLINKS_PATH:${PATH}"
